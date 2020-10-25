@@ -1,0 +1,105 @@
+#conteneur
+{
+	
+	display: flex;
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	
+}
+h1 span
+{
+	color: gold;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+}
+h5
+{
+	background-color: black;
+	color: #FFD700;
+	padding: 5px;
+	text-align: center;
+}
+h5 span
+{
+	margin-top: 30px;
+}
+div
+{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.element:nth-child(1)
+{
+	background-color: #FFD700;
+	width: 200px;
+	text-align: justify;
+
+
+}
+.element:nth-child(2)
+{
+    background-color: white;
+    width: 300px;
+    text-align: justify;
+    margin-left: 50px;
+
+   
+}
+
+ p img 
+{
+	margin-top: 30px;
+	margin-left: 90px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+
+}
+p
+{
+	padding-left: 0;
+	padding-right: 20px;
+	margin-bottom: 0;
+
+}
+h1
+{
+	text-align: auto;
+}
+hr
+{
+	border-bottom:0px ;
+	border-width: 0.1em;
+
+}
+h2
+{
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-underline-position: under;
+
+
+}
+
+
+@media screen and (max-width: 1024px)
+ 
+{
+	#conteneur
+{
+	color: green;
+	flex-direction: column;
+	width: auto;
+
+} 
+}
+.element:nth-child(1)
+{
+	width: 100%;
+}

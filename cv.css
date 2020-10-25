@@ -1,0 +1,44 @@
+header{
+	display:flex;
+	justify-content: space-between;
+}
+h1
+{
+opacity: 0.6;
+
+
+margin-top: 1px;
+	color: blue;
+	text-align: center;
+	text-shadow: 2px 2px red;
+	font-size: 3em;
+	padding:80px;
+	padding-bottom: 100px;
+
+}
+#conteneur 
+{
+	justify-content: space-around;
+	display: flex;
+	border-radius: 10px / 20px;
+	text-shadow: 2px 2px red;
+	font-size: 1em;
+	
+
+}
+.element
+{
+	width:33%;
+	font-family: verdana;
+}
+
+body 
+{
+
+order-left-color: black;
+border-left-style: solid;
+border-left-width: 150px;
+	
+}
+	
+
