@@ -80,10 +80,7 @@ hr
 }
 h2
 {
-	text-decoration: underline;
-	text-decoration-color: red;
-	text-underline-position: under;
-
+	border-bottom: red solid 2px;
 
 }
 
