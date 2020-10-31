@@ -10,6 +10,12 @@ h1 span
 {
 	color: gold;
 }
+
+h1
+{
+	text-align: auto;
+}
+
 body
 {
 	display: flex;
@@ -22,7 +28,7 @@ h5
 	padding: 5px;
 	text-align: center;
 }
-
+                                                                                                 
 div
 {
 	display: flex;
@@ -62,18 +68,7 @@ p
 	margin-bottom: 0;
 
 }
-h1
-{
-	text-align: auto;
-}
 
-
-}
-h2
-{
-	border-bottom: red solid 2px;
-
-}
 
 
 @media screen and (max-width: 1024px)
