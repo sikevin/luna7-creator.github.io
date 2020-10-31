@@ -3,7 +3,6 @@
 	
 	display: flex;
 	width: 600px;
-	display: flex;
 	justify-content: center;
 	
 }
@@ -23,10 +22,7 @@ h5
 	padding: 5px;
 	text-align: center;
 }
-h5 span
-{
-	margin-top: 30px;
-}
+
 div
 {
 	display: flex;
@@ -37,9 +33,7 @@ div
 .element:nth-child(1)
 {
 	background-color: #FFD700;
-	width: 200px;
 	text-align: justify;
-
 
 }
 .element:nth-child(2)
@@ -72,10 +66,7 @@ h1
 {
 	text-align: auto;
 }
-hr
-{
-	border-bottom:0px ;
-	border-width: 0.1em;
+
 
 }
 h2
@@ -90,9 +81,9 @@ h2
 {
 	#conteneur
 {
-	color: green;
 	flex-direction: column;
 	width: auto;
+
 
 } 
 }
